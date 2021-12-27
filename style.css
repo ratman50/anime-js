@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    border:none;
+    list-style: none;
+    outline:none;
+    box-sizing:border-box;
+}
+body
+{
+    font-family: 'Shizuru', cursive;
+    overflow: hidden;
+}
+
+.container
+{
+    text-align: center;
+    perspective: 1000px;
+}
+h1{
+    transform-style: preserve-3d;
+    display: inline-flex;
+    margin-top: 200px;
+    color: #333;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size:190px;
+    cursor: pointer;
+}
+ h1 span
+{
+    pointer-events: none;
+}
